@@ -1,0 +1,2 @@
+# Keep this directory in git. gettext .po/.mo catalogues for the module are
+# generated here by `manage.py compilemessages`.

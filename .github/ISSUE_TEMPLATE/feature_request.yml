@@ -1,0 +1,71 @@
+name: Feature request
+description: Suggest a capability for provider empanelment, contracts or fee schedules
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please read AGENTS.md section 1 (scope) and section 10 (roadmap) first —
+        the out-of-scope list and the roadmap already cover a lot of ground, and
+        out-of-scope items are deliberate.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What cannot a health insurance scheme do today?
+      placeholder: A scheme cannot express "this facility is empanelled for Level 1 services only"
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed capability
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Empanelment workflow
+        - Contract lifecycle
+        - Fee schedules / pricing
+        - Claims gate
+        - KPI & scorecards (v2)
+        - De-empanelment & grace period (v2)
+        - Bulk operations / import (v2)
+        - Provider self-service portal (v2)
+        - Documentation, packaging or tooling
+    validations:
+      required: true
+
+  - type: dropdown
+    id: scheme
+    attributes:
+      label: Which schemes does this affect?
+      description: openIMIS runs one scheme per instance, so scheme-specific needs usually indicate missing configuration
+      options:
+        - A single national scheme
+        - District-level schemes
+        - Community-based schemes
+        - Multiple schemes in one instance (not supported in v1 — see ADR-005)
+        - Unknown
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Including why configuration would not be enough
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I read AGENTS.md section 1 (scope) and this is in scope
+          required: true
+        - label: This could not be solved by a `ModuleConfiguration` setting
+          required: true

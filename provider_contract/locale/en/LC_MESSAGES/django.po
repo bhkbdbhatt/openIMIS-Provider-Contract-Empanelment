@@ -1,0 +1,134 @@
+# English (source) translations for provider_contract.
+# msgids are stable dotted keys; msgstr are the English strings. Other locales
+# are generated from this file, so keep the keys in sync with the code by
+# re-running xgettext rather than editing by hand.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openimis-be-provider-contract\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-01 00:00+0000\n"
+"PO-Revision-Date: 2026-01-01 00:00+0000\n"
+"Last-Translator: openIMIS \n"
+"Language-Team: English \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "contract"
+msgstr "contract"
+
+msgid "document"
+msgstr "document"
+
+msgid "document type"
+msgstr "document type"
+
+msgid "empanelment process"
+msgstr "empanelment process"
+
+msgid "empanelment workflow"
+msgstr "empanelment workflow"
+
+msgid "fee item"
+msgstr "fee item"
+
+msgid "fee schedule"
+msgstr "fee schedule"
+
+msgid "mutation.authentication_required"
+msgstr "Authentication required"
+
+msgid "provider_contract.mutation.failed_to_activate_contract"
+msgstr "Failed to activate contract."
+
+msgid "provider_contract.mutation.failed_to_activate_fee_schedule"
+msgstr "Failed to activate fee schedule."
+
+msgid "provider_contract.mutation.failed_to_add_document"
+msgstr "Failed to add document %(label)s."
+
+msgid "provider_contract.mutation.failed_to_advance_process"
+msgstr "Failed to advance empanelment process."
+
+msgid "provider_contract.mutation.failed_to_amend_contract"
+msgstr "Failed to amend contract."
+
+msgid "provider_contract.mutation.failed_to_approve_contract"
+msgstr "Failed to approve contract."
+
+msgid "provider_contract.mutation.failed_to_bulk_update_fees"
+msgstr "Failed to bulk update fees %(label)s."
+
+msgid "provider_contract.mutation.failed_to_create_contract"
+msgstr "Failed to create contract %(label)s."
+
+msgid "provider_contract.mutation.failed_to_create_fee_schedule"
+msgstr "Failed to create fee schedule %(label)s."
+
+msgid "provider_contract.mutation.failed_to_create_process"
+msgstr "Failed to create empanelment process %(label)s."
+
+msgid "provider_contract.mutation.failed_to_decide_process"
+msgstr "Failed to decide empanelment process."
+
+msgid "provider_contract.mutation.failed_to_delete_contract"
+msgstr "Failed to delete contract."
+
+msgid "provider_contract.mutation.failed_to_delete_fee_item"
+msgstr "Failed to delete fee item."
+
+msgid "provider_contract.mutation.failed_to_delete_process"
+msgstr "Failed to delete empanelment process."
+
+msgid "provider_contract.mutation.failed_to_reject_document"
+msgstr "Failed to reject document."
+
+msgid "provider_contract.mutation.failed_to_renew_contract"
+msgstr "Failed to renew contract."
+
+msgid "provider_contract.mutation.failed_to_resolve_violation"
+msgstr "Failed to resolve claim scope violation."
+
+msgid "provider_contract.mutation.failed_to_resume_contract"
+msgstr "Failed to resume contract."
+
+msgid "provider_contract.mutation.failed_to_save_fee_item"
+msgstr "Failed to save fee item %(label)s."
+
+msgid "provider_contract.mutation.failed_to_submit_contract"
+msgstr "Failed to submit contract."
+
+msgid "provider_contract.mutation.failed_to_submit_process"
+msgstr "Failed to submit empanelment process."
+
+msgid "provider_contract.mutation.failed_to_suspend_contract"
+msgstr "Failed to suspend contract."
+
+msgid "provider_contract.mutation.failed_to_terminate_contract"
+msgstr "Failed to terminate contract."
+
+msgid "provider_contract.mutation.failed_to_update_contract"
+msgstr "Failed to update contract."
+
+msgid "provider_contract.mutation.failed_to_update_process"
+msgstr "Failed to update empanelment process."
+
+msgid "provider_contract.mutation.failed_to_verify_document"
+msgstr "Failed to verify document."
+
+msgid "provider_contract.mutation.failed_to_waive_violation"
+msgstr "Failed to waive claim scope violation."
+
+msgid "provider_contract.mutation.failed_to_withdraw_process"
+msgstr "Failed to withdraw empanelment process."
+
+msgid "provider_contract.mutation.not_found"
+msgstr "No such %(label)s."
+
+msgid "unauthorized"
+msgstr "Unauthorized"
+
+msgid "violation"
+msgstr "violation"

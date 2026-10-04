@@ -1,0 +1,25 @@
+# GitGuardian / ggshield configuration
+# https://docs.gitguardian.com/ggshield-docs/reference/secret/scan/path
+#
+# `version: 2` is mandatory; without it ggshield treats the file as the
+# deprecated v1 format.
+version: 2
+
+instance: https://dashboard.gitguardian.com
+allow_self_signed: false
+
+secret:
+  # Documentation and fixtures carry long base64 / licence blobs that trip the
+  # generic high-entropy detector but are not credentials.
+  ignored_paths:
+    - "LICENSE.md"
+    - "GNU AFFERO GENERAL PUBLIC LICENSE.md"
+    - "**/*.md"
+    - "provider_contract/locale/**"
+    - "features/**"
+
+  # Only the secrets policy is meaningful for a source-only module; there are no
+  # infrastructure or IaC files here.
+  ignored_detectors:
+    - FilenamesWhitelist
+    - IpAddressDetector

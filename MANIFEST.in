@@ -1,0 +1,3 @@
+include LICENSE.md
+include README.md
+recursive-include provider_contract/locale *

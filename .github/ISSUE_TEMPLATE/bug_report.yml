@@ -1,0 +1,69 @@
+name: Bug report
+description: Something in the provider_contract module behaves incorrectly
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. Please note this module is pre-alpha — see the
+        Maturity table in README.md before reporting against it.
+
+  - type: input
+    id: version
+    attributes:
+      label: Module version
+      description: Tag or commit you are running
+      placeholder: "0.1.0 / develop @ abc1234"
+    validations:
+      required: true
+
+  - type: input
+    id: openimis-version
+    attributes:
+      label: openIMIS backend branch
+      description: Assembly branch, e.g. develop or v24.04
+      placeholder: develop
+    validations:
+      required: true
+
+  - type: dropdown
+    id: database
+    attributes:
+      label: Database engine
+      options: [PostgreSQL, MSSQL]
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you expected, and what happened instead
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Traceback or log output
+      render: text
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched existing issues for this
+          required: true
+        - label: This is not a security issue (security reports go to contact@openimis.org)

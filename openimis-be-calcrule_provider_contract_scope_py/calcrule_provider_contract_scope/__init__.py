@@ -1,0 +1,1 @@
+﻿default_app_config = "calcrule_provider_contract_scope.apps.CalcruleProviderContractScopeConfig"

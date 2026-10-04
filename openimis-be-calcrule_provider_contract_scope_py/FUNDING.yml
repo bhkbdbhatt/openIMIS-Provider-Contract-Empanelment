@@ -1,0 +1,18 @@
+# Funding for openIMIS is coordinated centrally by the initiative.
+#
+# This module is AGPL open source and is contributed to openIMIS, not sold. There
+# is no licence to buy and no separate product here: the code is free to use,
+# modify and self-host, and the only thing funding buys is the initiative's time
+# on maintenance, releases and support.
+#
+# If you are a ministry, insurer or NGO deploying this, the useful ways to help
+# are the ones on the openIMIS partners page -- co-development, a country
+# implementation, a translation, or resourcing the roadmap. A sponsored
+# deployment that brings real usage and feedback is worth more to this project
+# than a donation.
+#
+# See README.md -> "Advisory by design" for what this module does and does not do.
+github: [openimis/openimis-be-calcrule_provider_contract_scope_py]
+custom:
+  - https://openimis.org/partners
+  - https://openimis.org/contact-us
